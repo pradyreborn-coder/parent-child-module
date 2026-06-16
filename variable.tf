@@ -1,0 +1,10 @@
+variable "rg" {}
+variable "vnet" {}
+variable "subnet" {}
+variable "nsg" {}
+variable "pip" {}
+variable "bastion" {}
+variable "nic" {}
+variable "vm1" {}
+variable "vm2" {}
+variable "vnet_peering" {}
