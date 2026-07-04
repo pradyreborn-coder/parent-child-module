@@ -1,2 +1,3 @@
 variable "nic" {}
-variable "subnet_ids" {}
+variable "subnets_info" {}
+variable "rgs_info" {}

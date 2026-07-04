@@ -1,3 +1,4 @@
 variable "bastion" {}
-variable "subnet_ids" {}
-variable "pip_ids" {}
+variable "subnets_info" {}
+variable "pips_info" {}
+variable "rgs_info" {}

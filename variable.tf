@@ -8,3 +8,5 @@ variable "nic" {}
 variable "vm1" {}
 variable "vm2" {}
 variable "vnet_peering" {}
+variable "lb" {}
+variable "sa_name" {}

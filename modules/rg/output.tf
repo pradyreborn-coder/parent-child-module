@@ -9,3 +9,11 @@ output "rg_ids" {
 output "rg_locations" {
   value = { for k, rg in azurerm_resource_group.rgs : k => rg.location }
 }
+
+output "rgs_info" {
+  value = { for k, rg in azurerm_resource_group.rgs : k => {
+    name     = rg.name
+    location = rg.location
+    id       = rg.id
+  } }
+}
